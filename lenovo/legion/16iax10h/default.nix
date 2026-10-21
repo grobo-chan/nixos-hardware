@@ -13,7 +13,7 @@
     ../../../common/hidpi.nix
   ];
 
-  boot.extraModulePackages = [ config.boot.kernelPackages.lenovo-legion-module ];
+  # boot.extraModulePackages = [ config.boot.kernelPackages.lenovo-legion-module ];
 
   hardware = {
     nvidia = {
